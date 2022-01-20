@@ -16,7 +16,7 @@ def startGame(event):
 
     nextColor()
 
-# unction to choose and display the next colour
+# function to choose and display the next colour
 
 
 def nextColor():
@@ -25,7 +25,7 @@ def nextColor():
 
     if timeLeft > 0:
         e.focus_set()
-        # if the color typed is equal to the coloe of text
+        # if the color typed is equal to the color of text
         if e.get().lower() == colours[1].lower():
             score += 1
 
